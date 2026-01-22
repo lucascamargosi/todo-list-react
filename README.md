@@ -1,4 +1,4 @@
-# Todo List - React = Vite
+# Todo List - React + Vite
 
 Um gerenciador de tarefas simples desenvolvido com React e Vite, utilizando Context API, LocalStorage e CSS Modules.
 
