@@ -1,22 +1,19 @@
 # Todo List - React + Vite
 
-Um gerenciador de tarefas simples desenvolvido com React e Vite, utilizando Context API, LocalStorage e CSS Modules.
+Um gerenciador de tarefa simples desenvolvido com React e Vite, com foco em fundamentos do React e JavaScript
 
 ## Tecnologias utilizadas
 - React
 - Vite
-- Context API
 - Hooks Personalizados
-- CSS Modules
 - Local Storage
 
 ## Funcionalidades
 - Adicionar tarefas
 - Marcas como concluídas
 - Remover tarefas
-- Persistência no LocalStorage
-- Organização de estado global com **Context API**  
-- Reutilização de lógica com **hook personalizado** 
+- Persistência de dados com LocalStorage
+- Organização de lógica com **hook personalizado** 
 
 ## Como executar o projeto
 
@@ -24,6 +21,8 @@ Um gerenciador de tarefas simples desenvolvido com React e Vite, utilizando Cont
 ```bash
 git clone https://github.com/lucascamargosi/todo-list-react.git
 
+# Acesse a pasta do projeto
+cd todo-list-react
 
 # Instalar dependências 
 npm install 
