@@ -3,10 +3,7 @@ export default function TaskItem({ task, onToggle, onRemove }) {
     <li>
       <span
         onClick={() => onToggle(task.id)}
-        style={{
-          textDecoration: task.completed ? 'line-through' : 'none',
-          cursor: 'pointer',
-        }}
+        className={task.completed ? 'completed' : ''}
       >
         {task.text}
       </span>

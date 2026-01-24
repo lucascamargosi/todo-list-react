@@ -16,7 +16,7 @@ export default function App() {
   }
 
   return (
-    <div style={{ padding: '20px', fontFamily: 'Arial' }}>
+    <div className='app'>
       <h1>Todo List</h1>
 
       <TaskInput text={text} onTextChange={setText} onAdd={handleAddTask} />
